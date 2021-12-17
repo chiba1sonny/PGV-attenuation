@@ -7,7 +7,10 @@ In order to compare with the predictors obtained by machine learning, we have al
 6,944 ground motion records at 1,184 seismic observation stations which were observed during the 32 earthquakes from 1997 to 2011 in Japan are employed to construct the attenuation relationships. Ground motion records from the 4 recent earthquakes are used as the test set. 
 # Variables
 The objective variable---PGV
+
 The explanatory variables---Mw,r,H,Si
+
+Si is the station correction factor
 # Construction of attenuation equation
 log⁡PGV=-1.541+0.648Mw-0.00153r-log⁡(⁡r+0.0033*10^(0.5*Mw))+0.00299H+Ci 
 ![image](https://user-images.githubusercontent.com/68838083/122856360-9fb23480-d351-11eb-9d60-27cca906cc14.png)
