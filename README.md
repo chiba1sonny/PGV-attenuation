@@ -10,11 +10,12 @@ The objective variable---PGV
 
 The explanatory variables---Mw,r,H,Si
 
-Si is the station correction factor
+Si is dummy variables of observed stations
 # Construction of attenuation equation
 log⁡PGV=-1.541+0.648Mw-0.00153r-log⁡(⁡r+0.0033*10^(0.5*Mw))+0.00299H+Ci 
 
-derived from three stage regression model proposed by Molas and Yamazaki
+Ci is the station correction factor
+Derived from three stage regression model proposed by Molas and Yamazaki
 
 ![image](https://user-images.githubusercontent.com/68838083/122856360-9fb23480-d351-11eb-9d60-27cca906cc14.png)
 # Construction of machine learning models
