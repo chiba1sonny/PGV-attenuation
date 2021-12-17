@@ -13,6 +13,9 @@ The explanatory variables---Mw,r,H,Si
 Si is the station correction factor
 # Construction of attenuation equation
 log⁡PGV=-1.541+0.648Mw-0.00153r-log⁡(⁡r+0.0033*10^(0.5*Mw))+0.00299H+Ci 
+
+derived from three stage regression model proposed by Molas and Yamazaki
+
 ![image](https://user-images.githubusercontent.com/68838083/122856360-9fb23480-d351-11eb-9d60-27cca906cc14.png)
 # Construction of machine learning models
 ![image](https://user-images.githubusercontent.com/68838083/122856433-c3757a80-d351-11eb-9d6c-4c869c1ee882.png)
