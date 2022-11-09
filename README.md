@@ -6,7 +6,7 @@
 ## Introduction
 - This project tries to develop new attenuation relationships of peak ground velocity using machine learning methods: random forest, neural network, support vector machine, and XGBoost. In order to compare with the predictors obtained by machine learning, we have also constructed a new attenuation relationship of peak ground velocity using three-stage regression procedure.
 
-## Dataset
+## Data
 - 6,944 ground motion records at 1,184 seismic observation stations which were observed during the 32 earthquakes from 1997 to 2011 in Japan are employed to construct the attenuation relationships. Ground motion records from the 4 recent earthquakes are used as the test set. 
 
 ## Variables
@@ -29,3 +29,8 @@ $$log⁡PGV=-1.541+0.648Mw-0.00153r-log⁡(⁡r+0.0033*10^(0.5*Mw))+0.00299H+Ci$
 ![image](https://user-images.githubusercontent.com/68838083/122856445-c7a19800-d351-11eb-948c-ad01d5d1e5b0.png)
 
 ![image](https://user-images.githubusercontent.com/68838083/122856461-cd977900-d351-11eb-8352-b810c332e591.png)
+
+## Result of test set
+- Observations (Obs) and predictions (Pre) of the 4 recent earthquakes by predictors of the the attenuation equation (AE), random forest (RF), neural network (NN). Red points represent the prediction by the attenuation equation; blue points represent the prediction by the random forest predictor; orange points represent the prediction by the neural network predictor; and green points represent the observed data, respectively.
+
+![test](https://user-images.githubusercontent.com/68838083/200756570-4b26cb58-34bc-4471-bed8-9a240d9e80c4.PNG)
