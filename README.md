@@ -1,4 +1,4 @@
-# What is PGV attenuation
+## What is PGV attenuation
 - The attenuation relationship is a method to predict the ground motion intensity(peak ground velocity) of earthquake that may occur in the future based on the ground motion records of past earthquakes.
 - The attenuation refers to the phenomenon that the farther away from the epicenter, the weaker the earthquake intensity. The previous attenuation relationships are empirical equations that predict the level of ground shaking, based on the source characteristics (e.g., earthquake magnitude), the propagation path (e.g., the shortest distance from the fault), and the local site conditions, etc.
 - As the development of statistical analysis methods and more ground motion records are obtained, the research of attenuation relationship has been greatly developed. Futhermore, due to the lack of ground motion records near the epicenter, it was found that previous attenuation relationships have low reliability at close range. Therefore, it is useful to develop new attenuation relationships of peak ground velocity (PGV) using machine learning methods.
